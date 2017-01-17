@@ -11,6 +11,7 @@ The README will be updated as new features are implemented.
 * [Xcode](https://developer.apple.com/xcode/) and Xcode command line tools
 * [SDL 2 library](https://www.libsdl.org/)
 * [CUDA LLVM Compiler (NVCC)](https://developer.nvidia.com/cuda-llvm-compiler)
+
 Simply run **make**, and launch **./pathtracer**.
 
 ## Current features
