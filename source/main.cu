@@ -52,26 +52,6 @@ main(int ac, char** av)
     leftSphere->setDiffuse(0.0);
     leftSphere->setSpecular(0.4);
     leftSphere->setReflectance(1.0);
-    // Small sphere
-    Sphere*     smallSphere1 = new Sphere(1.0, -2.5, -15.0, 0.25, 255, 75, 75);
-    smallSphere1->setDiffuse(1.0);
-    smallSphere1->setSpecular(0.4);
-    // Small sphere
-    Sphere*     smallSphere2 = new Sphere(2.0, -2.5, -15.0, 0.25, 255, 75, 75);
-    smallSphere2->setDiffuse(1.0);
-    smallSphere2->setSpecular(0.4);
-    // Small sphere
-    Sphere*     smallSphere3 = new Sphere(3.0, -2.5, -15.0, 0.25, 255, 75, 75);
-    smallSphere3->setDiffuse(1.0);
-    smallSphere3->setSpecular(0.4);
-    // Small sphere
-    Sphere*     smallSphere4 = new Sphere(4.0, -2.5, -15.0, 0.25, 255, 75, 75);
-    smallSphere4->setDiffuse(1.0);
-    smallSphere4->setSpecular(0.4);
-    // Small sphere
-    Sphere*     smallSphere5 = new Sphere(5.0, -2.5, -15.0, 0.25, 255, 75, 75);
-    smallSphere5->setDiffuse(1.0);
-    smallSphere5->setSpecular(0.4);
     // Transmittive sphere
     Sphere*     rightSphere = new Sphere(3.0, -2.0, -8.0, 3.0, 200, 200, 200);
     rightSphere->setDiffuse(0.2);
@@ -89,11 +69,6 @@ main(int ac, char** av)
     scene.addObject(rightWall);
     scene.addObject(leftSphere);
     scene.addObject(rightSphere);
-    scene.addObject(smallSphere1);
-    scene.addObject(smallSphere2);
-    scene.addObject(smallSphere3);
-    scene.addObject(smallSphere4);
-    scene.addObject(smallSphere5);
     scene.addLight(ceilLight);
     scene.addLight(backLight);
 

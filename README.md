@@ -5,6 +5,8 @@ PathTracer is an attempt to create a real time GPU path tracing renderer, using 
 It currently uses [SDL 2](https://www.libsdl.org/) to handle inputs and render window.
 The README will be updated as new features are implemented.
 
+![Box scene](/images/box.png)
+
 ## Installation
 *Prerequisite :*
 * Mac OS 10.9 or above
